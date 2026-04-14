@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.changelog {
+    border: 1px solid #555;
+    width: 800px;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+
+}
+
+.changelog_info {
+    text-align: center;
+    margin: 1rem;
+}
+
+.changelog-details {
+    padding: 1rem;
+    position: relative;
+}
+
+.details-line{
+    width: 2px;
+    height: 340px;
+    position: absolute;
+    background-color: #555;
+    border-radius: 10px;
+    z-index: -1;
+    transform: translateX(208px);
+}
+.changelog-list-item{
+    grid-template-columns: 200px 20px 1fr;
+    grid-template-rows: 1fr;
+    display: grid;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
+.changelog-list {
+    list-style-type: none;
+    
+}
+
+.changelog-date {
+    text-align: right;
+    margin-right: 10px;
+    color: #555;
+    font-size: 0.8rem;
+
+
+}
+.changelog-icon {
+    background-color: #555;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    aspect-ratio: 1 / 1;
+    margin: auto;
+}
+
+.changelog-text {
+    margin-left: 10px;
+
+}
+
+p{
+    color: #555;
+    padding: 1rem;
+}
+
+.button{
+    display: flex;
+
+}
+.changelog-button{
+    background-color: black;
+    color: #fff;
+    padding: 0.5rem;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.changelog-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+
+}
